@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B4C4D1"
+
+        tools:context=".activities.LocationActivity">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@drawable/location"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </View>
+
+        <View
+            android:id="@+id/mainView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/background_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view"
+            app:layout_constraintVertical_bias="0.0">
+
+        </View>
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:fontFamily="@font/acme"
+            android:gravity="center|start"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="@string/latitude"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="@id/mainView"
+            app:layout_constraintEnd_toEndOf="@id/mainView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/mainView"
+            app:layout_constraintTop_toTopOf="@+id/mainView"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <View
+            android:id="@+id/mid1"
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/mainView"
+            app:layout_constraintEnd_toEndOf="@id/mainView"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toEndOf="@id/lat"
+            app:layout_constraintTop_toTopOf="@id/mainView"
+            app:layout_constraintVertical_bias="0.101">
+
+        </View>
+
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:fontFamily="@font/acme"
+            android:gravity="center|start"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="@string/latitude"
+            android:textColor="#1C1919"
+            android:textColorHint="#B1B1B1"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="@id/mainView"
+            app:layout_constraintEnd_toEndOf="@id/mainView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/mid1"
+            app:layout_constraintTop_toTopOf="@+id/mainView"
+            app:layout_constraintVertical_bias="0.05" />
+
+
+
+<!--        ...............................................-->
+        <View
+            android:id="@+id/mainView2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/background_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mainView"
+            app:layout_constraintVertical_bias="0.00999999">
+
+        </View>
+        <TextView
+            android:id="@+id/l_long"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:fontFamily="@font/acme"
+            android:gravity="center|start"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="@string/longitude"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="@id/mainView2"
+            app:layout_constraintEnd_toEndOf="@id/mainView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/mainView2"
+            app:layout_constraintTop_toTopOf="@+id/mainView2"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <View
+            android:id="@+id/mid2"
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/mainView2"
+            app:layout_constraintEnd_toEndOf="@id/mainView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/l_long"
+            app:layout_constraintTop_toTopOf="@id/mainView2"
+            app:layout_constraintVertical_bias="0.101">
+
+        </View>
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:fontFamily="@font/acme"
+            android:gravity="center|start"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="@string/longitude"
+            android:textColor="#1C1919"
+            android:textColorHint="#B1B1B1"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="@id/mainView2"
+            app:layout_constraintEnd_toEndOf="@id/mainView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/mid2"
+            app:layout_constraintTop_toTopOf="@+id/mainView2"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

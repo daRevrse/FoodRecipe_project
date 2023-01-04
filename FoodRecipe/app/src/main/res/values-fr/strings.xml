@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Recette de nourriture "</string>
+    <string name="login_name">Connexion</string>
+    <string name="create_new_account">"Nouveau ici ? Créer un compte "</string>
+    <string name="signUp">"S'inscrire "</string>
+    <string name="name">Nom</string>
+    <string name="already_account">"Déjà enregistré ? Connectez-vous ici "</string>
+    <string name="food_recipe_app">"Recette de nourriture "</string>
+    <string name="recipe_title">Titre</string>
+    <string name="email">"E-mail "</string>
+    <string name="password">"Mot de passe "</string>
+    <string name="current_user_name">"Utilisateur actuel "</string>
+    <string name="emial_required">L\'e-mail est obligatoire</string>
+    <string name="password_required">Mot de passe requis</string>
+    <string name="password_length">Le mot de passe doit contenir >= 6 caractères</string>
+    <string name="message">Lors de la récupération de l\'emplacement actuel de l\'utilisateur .....</string>
+    <string name="please_w8">S\'il vous plaît, attendez.....</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="fetch_the_data">Récupérez les données soyez patient</string>
+    <string name="upload_btn">Télécharger</string>
+</resources>

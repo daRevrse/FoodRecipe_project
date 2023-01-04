@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Food Recipe</string>
+    <string name="api_key">0aaea482075945ed89417646b4944966</string>
+
+    <string name="food_recipe_app">Food Recipe</string>
+    <string name="login_name">Login</string>
+    <string name="create_new_account">New Here ? Create Account</string>
+    <string name="signUp">Register</string>
+    <string name="name">Name</string>
+    <string name="already_account">Already registered ? Login Here</string>
+    <string name="recipe_title">Title</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="current_user_name">Current User</string>
+    <string name="emial_required">Email is Required</string>
+    <string name="password_required">Password is Required</string>
+    <string name="password_length">Password Must be >=6 Character</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="please_w8">Please Wait.....</string>
+    <string name="message">While Fetch the Current Location of the User.....</string>
+    <string name="fetch_the_data">Fetch the data be patient</string>
+    <string name="upload_btn">Upload</string>
+    <string name="view_detail">View Detail</string>
+    <string name="type">Type</string>
+    <string name="google_maps_key">AIzaSyCXhN6B7hHEYpjyP5xV0SrxJQWtOfXhV2o</string>
+
+</resources>

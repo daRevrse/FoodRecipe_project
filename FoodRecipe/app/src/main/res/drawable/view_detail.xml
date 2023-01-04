@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="35dp"
+    android:height="35dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <path
+        android:fillColor="#D8ECFE"
+        android:fillType="nonZero"
+        android:pathData="M127.86,179.97c-35.07,0 -70.13,-15.2 -104.95,-45.61L15.46,127.86l7.45,-6.5c69.64,-60.82 140.26,-60.81 209.9,0L240.26,127.86l-7.45,6.5C197.99,164.77 162.92,179.97 127.86,179.97z"
+        android:strokeWidth="2.81"
+        android:strokeColor="#00000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M142.9,112.44m-19.97,0a19.97,19.97 0,1 1,39.93 0a19.97,19.97 0,1 1,-39.93 0"
+        android:strokeWidth="2.81"
+        android:strokeColor="#00000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:fillColor="#0172FB"
+        android:fillType="nonZero"
+        android:pathData="M127.86,186.48c-39.45,0 -78.9,-17.1 -118.07,-51.31L1.41,127.86l8.38,-7.32c78.35,-68.42 157.8,-68.41 236.14,0L254.31,127.86l-8.38,7.32C206.76,169.38 167.31,186.48 127.86,186.48zM31.29,127.86c64.88,52.11 128.25,52.11 193.13,0C159.54,75.75 96.17,75.75 31.29,127.86z"
+        android:strokeWidth="2.81"
+        android:strokeColor="#00000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:fillColor="#0172FB"
+        android:fillType="nonZero"
+        android:pathData="M127.86,79.29c-21.54,0 -38.99,17.46 -38.99,38.99c0,21.54 17.46,38.99 38.99,38.99s38.99,-17.46 38.99,-38.99C166.85,96.74 149.39,79.29 127.86,79.29zM144.92,125.57c-8.09,0 -14.65,-6.56 -14.65,-14.65c0,-8.09 6.56,-14.65 14.65,-14.65c8.09,0 14.65,6.56 14.65,14.65C159.57,119.02 153.01,125.57 144.92,125.57z"
+        android:strokeWidth="2.81"
+        android:strokeColor="#00000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+</vector>
